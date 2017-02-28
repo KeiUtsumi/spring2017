@@ -9,7 +9,7 @@ var Cat = function(name) {
         console.log(this.name + "が走る");
     };*/
 };
-Cat.prototype.run = function() {
+Cat.prototype.run = function() {//ここで定義
     console.log(this.name + "が走る");
 };
 
